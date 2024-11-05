@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#nav{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Manrope';
+}
+
+#navleft{
+    display: flex;
+    align-items: center;
+    margin-left: 4%;
+    margin-top: 1%;
+    gap: 20px;
+}
+
+#navleft button{
+    padding: 5px 15px;
+    border-radius: 100px;
+    border: 0px;
+    background-color: #fae9e9;
+}
+
+#navleft button:hover{
+    background-color: #f2d8d8;
+}
+
+#navright{
+    display: flex;
+    align-items: center;
+    margin-right: 8%;
+    margin-top: 1%;
+    gap: 35px;
+}
+
+#navright button{
+    padding: 10px 15px;
+    border-radius: 100px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+#navright button:hover{
+    background-color: black;
+    color: white;
+}
+
+#slide1
+{   width: 100%;
+    padding-left:70px;
+    margin-top: 120px;
+    font-family: 'Manrope';
+}
+
+#slide1 h1{
+ font-size: 90px;
+ font-weight: 400;
+ letter-spacing: 1px;
+ line-height: 1;
+}
+
+#slide1 p{
+    width: 40%;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#slide1 button{
+ padding: 14px 26px;   
+ margin-top: 50px;
+ font-family: 'Manrope';
+ font-size: 15px;
+ border-radius: 100px;
+ background-color: black;
+ color: white;
+ border: 1px solid black;
+}
+
+#slide1 button:hover{
+    background-color: rgba(0, 0, 0, 0.819);
+}
+
+#logos {
+    padding-left: 60px ;
+    margin-top: 70px;
+    width: 100%;
+    display: flex ;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+}
+
+#slide2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-top: 90px;
+    font-family: 'Manrope';
+}
+
+.box{
+    height: 70%;
+    width: 18%;
+    padding: 10px 20px;
+    padding-top: 40px;
+    background-color: rgb(243, 241, 241);
+}
+
+.box h3{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.box p{
+    padding-top: 40px;
+    padding-bottom: 20px
+}
+
+.box a{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+#work{
+    margin-top: 100px;
+    font-family: 'Manrope';;
+}
+
+#line{
+    padding: 0 70px;
+}
+
+#line h3{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#line2{
+   padding: 50px 65px;
+   padding-bottom: 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#lineleft h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#lineright button{
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+#lineright button:hover{
+    background-color: black;
+    color: white;
+}
+
+.boxes{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-between;
+    background-color: transparent;
+    font-family: 'Manrope';
+}
+
+.block{
+    width: 47%;
+    height: 450px;
+}
+#img1{
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-size:cover;
+    background-image: url(https://assets-global.website-files.com/63c3f1995d4c354236c944de/63c6b981e34f347cacdc73b6_project-01-thumb.webp)
+}
+
+
+.titlebox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.titlebox h3{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.titlebox button{
+    padding: 8px 10px;
+     border-radius: 100px;
+    border: 1px solid black;
+    background-color:transparent;
+}
+
+.titlebox button:hover{
+    background-color: black;
+    color: white;
+}
+
+#img2{
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-size:cover;
+    background-image: url(https://assets-global.website-files.com/63c3f1995d4c354236c944de/63c6b96d86c0c985079d8d60_project-02-thumb.webp)
+}
+#img3{
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-size:cover;
+    background-image: url( https://assets-global.website-files.com/63c3f1995d4c354236c944de/63c6b953a2c1a5706f63bbe1_project-03-thumb.webp);
+}
+
+
+#img4{
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-size:cover;
+    background-image: url(https://assets-global.website-files.com/63c3f1995d4c354236c944de/63c6b943f334e17d7007a0ea_project-04-thumb.webp)
+}
